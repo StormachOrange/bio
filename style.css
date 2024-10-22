@@ -1,0 +1,233 @@
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+body
+{
+    background: #131212;
+}
+.main-bio
+{
+    margin-top: 100px;
+    width: 500px;
+    height: 700px;
+    background-color: #212121;
+    border-radius: 20px;
+    box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12), 0px 10px 32px -4px rgba(24, 39, 75, 0.1), inset 0px 0px 2px 1px rgba(255, 255, 255, 0.05);
+}
+div
+{
+    display: block;
+    unicode-bidi: isolate;
+}
+.avatarka
+{
+    margin-top: 30px;
+    border-radius: 100px;
+    user-select: none;
+
+}
+.nickname
+{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.btn-steam
+{
+    background-color: #3b3b3b;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s ease all;
+    box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12), 0px 10px 32px -4px rgba(24, 39, 75, 0.1), inset 0px 0px 2px 1px rgba(255, 255, 255, 0.05);
+}
+.btn-steam:hover
+{
+    box-shadow: 0px 6px 14px -6px rgb(91, 91, 91), 0px 10px 32px -4px rgb(124, 124, 124), inset 0px 0px 2px 1px rgb(152, 152, 152);
+    background: #4d4d4d;:
+}
+.steam-logo
+{
+    margin-right: 350px;
+    margin-top: 10px;
+    user-select: none;
+}
+.steam-text-a
+{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    top: -30px;
+}
+.btn-discord
+{
+    margin-top: 10px;
+    background-color: #3b3b3b;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s ease all;
+    box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12), 0px 10px 32px -4px rgba(24, 39, 75, 0.1), inset 0px 0px 2px 1px rgba(255, 255, 255, 0.05);
+}
+.discord-logo
+{
+    margin-right: 325px;
+    margin-top: 10px;
+    user-select: none;
+}
+.btn-discord:hover
+{
+    background: #5865F2;
+    box-shadow: 0px 6px 14px -6px rgb(55, 72, 255), 0px 10px 32px -4px rgb(151, 160, 255), inset 0px 0px 2px 1px rgb(170, 179, 255);
+}
+.copy
+{
+    top: -2px;
+    right:  10px;
+    user-select: none;
+    position: relative;
+}
+.bio
+{
+    padding: -20px;
+    color: gray;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    margin-top: -20px;
+}
+.btn-github
+{
+    margin-top: 10px;
+    background-color: #3b3b3b;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s ease all;
+    box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12), 0px 10px 32px -4px rgba(24, 39, 75, 0.1), inset 0px 0px 2px 1px rgba(255, 255, 255, 0.05);
+}
+.btn-github:hover
+{
+    box-shadow: 0px 6px 14px -6px rgb(91, 91, 91), 0px 10px 32px -4px rgb(124, 124, 124), inset 0px 0px 2px 1px rgb(152, 152, 152);
+    background: #4d4d4d;:
+}
+.support-p
+{
+    width: 100px;
+    color: gray;
+    font-family: "Poppins", sans-serif;
+    padding: 200px;
+}
+.support-a
+{
+    color: gray;
+}

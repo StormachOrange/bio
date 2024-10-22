@@ -1,10 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="simple-notify.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <title>stormach</title>
+    <script src="https://cdn.jsdelivr.net/npm/simple-notify/dist/simple-notify.min.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
 
+<center>
+    <div class="main-bio">
+        <img class="avatarka" src="img/stormach.png" height="120" width="120"/>
+        <p class="nickname">stormach</p>
+        <p class="bio">game developer</p>
+        <div class="btn-steam" onclick="location.href='https://steamcommunity.com/id/StormachTyI/';">
+            <img class="steam-logo" src="img/white-steam.png" height="30" width="30"/>
+            <a class="steam-text-a" href="https://steamcommunity.com/id/StormachTyI/">steam</a>
+        </div>
+        <div class="btn-discord" onclick="pushNotify();">
+            <img class="discord-logo" src="img/discord-mark-white.svg" height="30" width="30"/>
+            <img class="copy" src="img/copy.svg" alt="copy">
+            <a onclick="OnClickCopy();" class="steam-text-a">discord</a>
+        </div>
+        <div class="btn-github" onclick="location.href='https://github.com/StormachOrange';">
+            <img class="steam-logo" src="img/GitHub_Invertocat_Light.svg" height="30" width="30"/>
+            <a class="steam-text-a" href="https://github.com/StormachOrange">github</a>
+        </div>
+        <p class="support-p">you can <a class="support-a" href="https://boosty.to/stormach">support</a> me</p>
+    </div>
+</center>
 </body>
 </html>
