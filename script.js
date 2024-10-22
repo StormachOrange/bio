@@ -1,9 +1,8 @@
-let discord_text = 'stormach1';
+let discord_text = 'stormach1'; // instead of 'stormach1', enter your discord
 
 function OnClickCopy()
 {
     navigator.clipboard.writeText(discord_text);
-    $.notify("Access granted", "success");
 }
 function pushNotify() {
     new Notify ({
