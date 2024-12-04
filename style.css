@@ -225,9 +225,33 @@ div
     width: 100px;
     color: gray;
     font-family: "Poppins", sans-serif;
-    padding: 200px;
+    padding: 150px;
 }
 .support-a
 {
     color: gray;
+}
+/*.developer-badge*/
+/*{*/
+/*    position: relative;*/
+/*    top: -45px;*/
+/*    right: -65px;*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*}*/
+.btn-mygame
+{
+    margin-top: 10px;
+    background-color: #675e46;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s ease all;
+    box-shadow: 0px 6px 14px -6px rgba(24, 39, 75, 0.12), 0px 10px 32px -4px rgba(24, 39, 75, 0.1), inset 0px 0px 2px 1px rgba(255, 255, 255, 0.05);
+}
+.btn-mygame:hover
+{
+    box-shadow: 0px 6px 14px -6px rgb(152, 131, 22), 0px 10px 32px -4px rgb(210, 196, 45), inset 0px 0px 2px 1px rgb(255, 244, 30);
+    background: #4d4d4d;:
 }
